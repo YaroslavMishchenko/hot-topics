@@ -1,0 +1,464 @@
+/*
+COLORS
+#201E1F - Raisin Black;
+#F4FAFF - Alice Blue;
+/*
+GOOGLE FONTS
+*/
+
+h1,
+h2,
+figcaption {
+    font-family: 'Crete Round', serif, Verdana, Geneva, Tahoma, serif;
+}
+
+h1 {
+    color: #201E1F;
+    font-size: 2.5rem;
+}
+
+
+h2 {
+
+    font-size: 2rem;
+}
+
+
+p,
+a {
+
+    font-family: 'Cairo', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6rem;
+    font-size: 0.75rem;
+}
+
+/*
+END OF GOOGLE FONTS
+*/
+hr {
+display: none;
+}
+
+header img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-h1 {
+    display: none;
+}
+
+header h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.useless-logo {
+    display: none;
+}
+
+div figcaption {
+    margin-left: 0;
+}
+
+nav a {
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    background-color: #201E1F;
+    color: #F4FAFF;
+    padding: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav a:last-of-type {
+    margin-bottom: 2rem;
+}
+
+article h2,
+figcaption {
+
+    text-align: center;
+}
+
+
+article img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+article p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #201E1F;
+    display: block;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+footer a {
+    color: #F4FAFF;
+    margin: 0.5rem;
+    
+}
+
+footer p {
+    color: #F4FAFF;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+article a {
+    margin-left: 2.7rem;
+}
+
+div {
+    margin-bottom: 2rem;
+}
+
+div img {
+
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media only screen and (min-width: 35rem) {
+
+    p,
+    a {
+        font-size: 1rem;
+    }
+
+    h1 {
+
+        font-size: 3rem;
+    }
+
+    hr {
+    display: block;
+    }
+
+    h2 {
+
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .second-h1 {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+
+    }
+
+    .two {
+        float: right;
+        width: 42%;
+        margin-top: -3.6rem;
+
+    }
+
+    .one {
+        float: left;
+        clear: both;
+        width: 42%;
+
+    }
+
+    main {
+        clear: both;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    header h1 {
+        padding-top: 4.5rem;
+        height: 200px;
+        background-image: url("../img/money-pattern.jpg");
+        background-size: cover;
+        color: #F4FAFF;
+        text-shadow: 4px 4px #201E1F;
+    }
+
+    figure {
+        float: left;
+    }
+
+    figcaption {
+
+        margin-left: -2rem;
+    }
+
+    figure img {
+        height: 200px;
+        width: 200px;
+        margin-right: 3rem;
+    }
+
+    article h2 {
+
+        clear: both;
+    }
+
+    article p {
+        display: block;
+        width: auto;
+    }
+
+
+    footer {
+
+        clear: both;
+    }
+
+    article a {
+        margin-left: 0rem;
+    }
+
+    .first-h1 {
+        display: none;
+    }
+
+    .second-h1 {
+
+        margin-top: 4rem;
+        padding-top: 4rem;
+        text-align: center;
+    }
+
+    .w1 {
+
+        grid-area: w1;
+
+    }
+
+    .w2 {
+
+        grid-area: w2;
+
+    }
+
+    .w3 {
+
+        grid-area: w3;
+
+    }
+
+    .w4 {
+
+        grid-area: w4;
+
+    }
+
+    .w5 {
+
+        grid-area: w5;
+
+    }
+
+    .w6 {
+
+        grid-area: w6;
+
+    }
+
+    div {
+        margin-top: 2rem;
+    }
+
+    div img {
+
+        height: 250px;
+        width: 250px;
+    }
+
+    .wrapper {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-areas:
+            "w1 w2"
+            "w3 w4"
+            "w5 w6"
+    }
+
+    div {
+        margin-bottom: 0rem;
+    }
+
+
+    @media only screen and (min-width: 80rem) {
+
+
+        h1 {
+
+            font-size: 3.5rem;
+            padding-right: 0rem;
+            padding-left: 10rem;
+        }
+
+
+        h2 {
+
+            font-size: 2.25rem;
+            margin-top: 2rem;
+        }
+
+        p,
+        a {
+            font-size: 1.25rem;
+        }
+
+        .main-logo {
+
+            display: none;
+        }
+
+        main {
+            clear: both;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        header h1 {
+            padding-top: 4.5rem;
+            height: 200px;
+            background-image: url("../img/money-pattern.jpg");
+            background-size: cover;
+            color: #F4FAFF;
+            text-shadow: 4px 4px #201E1F;
+        }
+
+        figure {
+            float: left;
+        }
+
+        figure img {
+            height: 200px;
+            width: 200px;
+            margin-right: 3rem;
+        }
+
+        article h2 {
+
+            clear: both;
+        }
+
+        article p {
+            display: block;
+            width: auto;
+            clear: right;
+        }
+
+        figcaption {
+            margin-bottom: 18rem;
+            margin-left: -2rem;
+        }
+
+        footer {
+
+            clear: both;
+        }
+
+        article h2:last-of-type {
+            margin-top: 3rem;
+        }
+
+        article a {
+            margin-left: 0rem;
+        }
+
+        .useless-logo {
+            display: block;
+            float: left;
+            margin-left: 18rem;
+
+        }
+
+        header h1 {
+            clear: both;
+        }
+
+        .one {
+
+            margin-top: -6rem;
+            width: 20%;
+            margin-left: 27rem;
+
+        }
+
+        .two {
+            float: left;
+            margin-top: -6rem;
+            margin-left: 48rem;
+
+            width: 20%;
+        }
+
+        div {
+            margin-top: 2rem;
+        }
+
+        div img {
+
+            height: 300px;
+            width: 300px;
+        }
+
+        .wrapper {
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 14rem;
+            padding-right: 14rem;
+            grid-gap: 1rem;
+            grid-template-areas:
+                "w1 w2 w3"
+                "w4 w5 w6"
+        }
+
+        div {
+            margin-bottom: 0rem;
+        }
+
+        div img,
+        figcaption {
+            margin-bottom: 0rem;
+        }
+
+        h1 {
+
+            padding-right: 50rem;
+        }
+
+    }
+}
